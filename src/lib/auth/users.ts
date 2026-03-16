@@ -1,5 +1,5 @@
 import bcrypt from "bcryptjs";
-import { Prisma } from "@prisma/client";
+import { PrismaClientKnownRequestError } from "@prisma/client/runtime/library";
 
 import { signSessionToken } from "@/lib/auth/jwt";
 import { prisma } from "@/lib/prisma";
@@ -39,7 +39,7 @@ export async function registerUser(input: unknown) {
     return { user, token };
   } catch (error) {
     if (
-      error instanceof Prisma.PrismaClientKnownRequestError &&
+      error instanceof PrismaClientKnownRequestError &&
       error.code === "P2002"
     ) {
       throw new Error("An account with this email already exists.");
