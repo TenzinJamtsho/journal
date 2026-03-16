@@ -134,9 +134,7 @@ export default async function DashboardPage({ searchParams }: DashboardPageProps
   const phaseTargetPercent = Number(phaseSettings?.phaseTargetPercent ?? 0);
   const currentBalance = startingBalance + totalPnl;
   const winRate = totalTrades === 0 ? 0 : (winningTrades / totalTrades) * 100;
-  const phaseTargetAmount = startingBalance * (phaseTargetPercent / 100);
   const remainingToGoal = Math.max(goal - totalPnl, 0);
-  const remainingToPhaseTarget = Math.max(phaseTargetAmount - totalPnl, 0);
   const longAnalytics = buildDirectionAnalytics(trades, "LONG");
   const shortAnalytics = buildDirectionAnalytics(trades, "SHORT");
   const calendar = buildMonthCalendar(monthTrades, monthStart);
@@ -203,9 +201,9 @@ export default async function DashboardPage({ searchParams }: DashboardPageProps
                   detail={`Goal remaining ${formatCurrency(remainingToGoal)}`}
                 />
                 <SummaryCard
-                  label="Phase Target Left"
-                  value={formatCurrency(remainingToPhaseTarget)}
-                  detail={`Target amount ${formatCurrency(phaseTargetAmount)}`}
+                  label="Required to Reach Goal"
+                  value={formatCurrency(remainingToGoal)}
+                  detail={`Set goal ${formatCurrency(goal)}`}
                 />
               </section>
 
@@ -220,7 +218,6 @@ export default async function DashboardPage({ searchParams }: DashboardPageProps
                 startingBalance={startingBalance}
                 currentGoal={goal}
                 currentPnl={totalPnl}
-                phaseTargetLeft={remainingToPhaseTarget}
               />
 
               <section className="mt-6 grid gap-4 xl:grid-cols-2">

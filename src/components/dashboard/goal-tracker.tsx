@@ -13,14 +13,12 @@ type GoalTrackerProps = {
   startingBalance: number;
   currentGoal: number;
   currentPnl: number;
-  phaseTargetLeft: number;
 };
 
 export function GoalTracker({
   startingBalance,
   currentGoal,
   currentPnl,
-  phaseTargetLeft,
 }: GoalTrackerProps) {
   const requiredToReachGoal = Math.max(currentGoal - currentPnl, 0);
   const progress = currentGoal <= 0 ? 0 : Math.min((currentPnl / currentGoal) * 100, 100);
@@ -49,12 +47,6 @@ export function GoalTracker({
             {formatCurrency(currentGoal)}
           </div>
         </div>
-        <div className="card-soft px-4 py-4">
-          <div className="text-xs text-[var(--text-muted)]">Phase Target Left</div>
-          <div className="mt-2 text-xl font-serif text-[var(--text-primary)]">
-            {formatCurrency(phaseTargetLeft)}
-          </div>
-        </div>
       </div>
 
       <div className="mt-5">
@@ -70,36 +62,41 @@ export function GoalTracker({
         </div>
       </div>
 
-      <div className="mt-5 grid gap-3 lg:grid-cols-2">
-        <form action={updateStartingBalanceAction} className="flex flex-col gap-3 sm:flex-row sm:items-end">
-          <label className="flex flex-1 flex-col gap-2">
-            <span className="field-label">Starting balance</span>
-            <input
-              name="startingBalance"
-              type="number"
-              step="0.01"
-              min="0"
-              defaultValue={startingBalance}
-              className="field-input px-4 text-sm"
-            />
-          </label>
-          <SubmitButton className="rounded-none">Save Balance</SubmitButton>
-        </form>
+      <details className="mt-5 border border-[var(--border-soft)] bg-[var(--surface-raised)]">
+        <summary className="cursor-pointer list-none px-4 py-3 text-sm font-semibold text-[var(--text-primary)]">
+          Edit balance and goal
+        </summary>
+        <div className="grid gap-3 border-t border-[var(--border-soft)] px-4 py-4 lg:grid-cols-2">
+          <form action={updateStartingBalanceAction} className="flex flex-col gap-3 sm:flex-row sm:items-end">
+            <label className="flex flex-1 flex-col gap-2">
+              <span className="field-label">Starting balance</span>
+              <input
+                name="startingBalance"
+                type="number"
+                step="0.01"
+                min="0"
+                defaultValue={startingBalance}
+                className="field-input px-4 text-sm"
+              />
+            </label>
+            <SubmitButton className="rounded-none">Save Balance</SubmitButton>
+          </form>
 
-        <form action={updateGoalAction} className="flex flex-col gap-3 sm:flex-row sm:items-end">
-        <label className="flex flex-1 flex-col gap-2">
-          <span className="field-label">Update goal</span>
-          <input
-            name="goal"
-            type="number"
-            step="0.01"
-            defaultValue={currentGoal}
-            className="field-input px-4 text-sm"
-          />
-        </label>
-        <SubmitButton className="rounded-none">Save Goal</SubmitButton>
-        </form>
-      </div>
+          <form action={updateGoalAction} className="flex flex-col gap-3 sm:flex-row sm:items-end">
+            <label className="flex flex-1 flex-col gap-2">
+              <span className="field-label">Update goal</span>
+              <input
+                name="goal"
+                type="number"
+                step="0.01"
+                defaultValue={currentGoal}
+                className="field-input px-4 text-sm"
+              />
+            </label>
+            <SubmitButton className="rounded-none">Save Goal</SubmitButton>
+          </form>
+        </div>
+      </details>
     </section>
   );
 }

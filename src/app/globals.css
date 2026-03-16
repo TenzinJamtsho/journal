@@ -19,6 +19,8 @@
   --accent-forest: #2d4739;
   --accent-warm: #b86a3b;
   --accent-gold: #b59a5a;
+  --tab-active-text: #f7f1e6;
+  --tab-active-subtle: #d8cab5;
   --positive: #3f7a5f;
   --negative: #a95447;
   --shadow-soft: 0 28px 70px rgba(66, 46, 24, 0.1);
@@ -44,6 +46,8 @@
   --accent-forest: #d7e2d4;
   --accent-warm: #d59065;
   --accent-gold: #ddc17d;
+  --tab-active-text: #0f221c;
+  --tab-active-subtle: #243a30;
   --positive: #86c29f;
   --negative: #e09085;
   --shadow-soft: 0 28px 70px rgba(0, 0, 0, 0.24);

@@ -105,14 +105,14 @@ export function SectionTabs({
                   type="button"
                   onClick={() => handleSelect(tab.id)}
                   className={`px-4 py-3 text-left ${
-                    isActive ? "bg-[var(--accent-forest)] text-[var(--background)]" : "card-soft"
+                    isActive ? "bg-[var(--accent-forest)] text-[var(--tab-active-text)]" : "card-soft"
                   }`}
                 >
-                  <div className={`text-[0.72rem] font-semibold uppercase tracking-[0.18em] ${isActive ? "text-[#efe4d3]" : "text-[var(--text-subtle)]"}`}>
+                  <div className={`text-[0.72rem] font-semibold uppercase tracking-[0.18em] ${isActive ? "text-[var(--tab-active-subtle)]" : "text-[var(--text-subtle)]"}`}>
                     Workspace
                   </div>
                   <div className="mt-1 font-serif text-2xl leading-none">{tab.label}</div>
-                  <p className={`mt-2 text-xs leading-5 ${isActive ? "text-[#dfd2c0]" : "text-[var(--text-muted)]"}`}>
+                  <p className={`mt-2 text-xs leading-5 ${isActive ? "text-[var(--tab-active-subtle)]" : "text-[var(--text-muted)]"}`}>
                     {tab.description}
                   </p>
                 </button>
