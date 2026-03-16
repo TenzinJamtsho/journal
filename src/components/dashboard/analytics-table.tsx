@@ -37,7 +37,7 @@ export function AnalyticsTable({ analytics }: AnalyticsTableProps) {
       </div>
       <div className="mt-4 space-y-3">
         {rows.map(([label, value]) => (
-          <div key={label} className="card-soft flex items-center justify-between px-4 py-3">
+          <div key={`${analytics.direction}-${label}`} className="card-soft flex items-center justify-between px-4 py-3">
             <span className="text-xs text-[var(--text-muted)]">{label}</span>
             <span className="text-sm font-semibold text-[var(--text-primary)]">{value}</span>
           </div>

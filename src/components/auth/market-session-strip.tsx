@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useSyncExternalStore } from "react";
 
 type SessionCard = {
   label: string;
@@ -67,24 +67,19 @@ function getSessionTone(label: string, activeSession: string) {
 }
 
 export function MarketSessionStrip() {
-  const [now, setNow] = useState<Date | null>(null);
-
-  useEffect(() => {
-    setNow(new Date());
-
-    const timer = window.setInterval(() => {
-      setNow(new Date());
-    }, 1000);
-
-    return () => {
-      window.clearInterval(timer);
-    };
-  }, []);
+  const now = useSyncExternalStore(
+    (onStoreChange) => {
+      const timer = window.setInterval(onStoreChange, 1000);
+      return () => window.clearInterval(timer);
+    },
+    () => Date.now(),
+    () => 0,
+  );
 
   const bhutanTime = useMemo(
     () =>
       now
-        ? getBhutanParts(now)
+        ? getBhutanParts(new Date(now))
         : {
             hour: 0,
             minute: 0,

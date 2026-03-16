@@ -16,8 +16,8 @@ type CalendarWeek = {
 
 export type MonthCalendar = {
   monthLabel: string;
-  monthStart: Date;
-  monthEnd: Date;
+  monthStartIso: string;
+  monthEndIso: string;
   previousMonth: string;
   nextMonth: string;
   monthTradeCount: number;
@@ -101,8 +101,8 @@ export function buildMonthCalendar(trades: Trade[], monthStart: Date): MonthCale
       year: "numeric",
       timeZone: "UTC",
     }).format(currentMonthStart),
-    monthStart: currentMonthStart,
-    monthEnd: currentMonthEnd,
+    monthStartIso: currentMonthStart.toISOString(),
+    monthEndIso: currentMonthEnd.toISOString(),
     previousMonth: toMonthKey(new Date(Date.UTC(monthStart.getUTCFullYear(), monthStart.getUTCMonth() - 1, 1))),
     nextMonth: toMonthKey(new Date(Date.UTC(monthStart.getUTCFullYear(), monthStart.getUTCMonth() + 1, 1))),
     monthTradeCount,

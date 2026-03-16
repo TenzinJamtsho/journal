@@ -30,12 +30,14 @@ export function CalendarView({
   const weekdays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
   const days = calendar.weeks.flatMap((week) => week.days);
   const weeklySummaries = calendar.weeks.map((week, index) => ({
+    id: `${calendar.previousMonth}-${index}-${week.weeklyTradeCount}-${week.weeklyPnl}`,
     label: `Week ${index + 1}`,
     weeklyPnl: week.weeklyPnl,
     weeklyTradeCount: week.weeklyTradeCount,
   }));
-  const selectedMonth = `${calendar.monthStart.getUTCFullYear()}-${String(
-    calendar.monthStart.getUTCMonth() + 1,
+  const monthStart = new Date(calendar.monthStartIso);
+  const selectedMonth = `${monthStart.getUTCFullYear()}-${String(
+    monthStart.getUTCMonth() + 1,
   ).padStart(2, "0")}`;
 
   function updateMonth(month: string) {
@@ -109,7 +111,7 @@ export function CalendarView({
 
         <div className="mt-5 grid gap-3 md:grid-cols-2 xl:grid-cols-5">
           {weeklySummaries.map((week) => (
-            <article key={week.label} className="border border-[var(--border-soft)] bg-[var(--surface-strong)] p-3">
+            <article key={week.id} className="border border-[var(--border-soft)] bg-[var(--surface-strong)] p-3">
               <div className="field-label">{week.label}</div>
               <div
                 className={`mt-2 text-lg font-semibold ${
