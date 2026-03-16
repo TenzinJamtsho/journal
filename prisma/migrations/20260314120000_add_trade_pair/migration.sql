@@ -1,0 +1,2 @@
+ALTER TABLE "public"."Trade"
+ADD COLUMN "pair" TEXT NOT NULL DEFAULT 'EURUSD';

@@ -1,0 +1,83 @@
+Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., tradeNumber: 2, date: Date, direction: ..., pnl: Decimal, setupCategory: ..., bias: ..., rr: ..., notes: ..., phase: ..., summarizedReasons: ..., reasonStructure: ..., createdAt: ..., updatedAt: ..., userId: ...}
+                                                             ^^^^^^^
+Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., tradeNumber: 2, date: Date, direction: ..., pnl: ..., setupCategory: ..., bias: ..., rr: Decimal, notes: ..., phase: ..., summarizedReasons: ..., reasonStructure: ..., createdAt: ..., updatedAt: ..., userId: ...}
+                                                                                                     ^^^^^^^
+Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., tradeNumber: 1, date: Date, direction: ..., pnl: Decimal, setupCategory: ..., bias: ..., rr: ..., notes: ..., phase: ..., summarizedReasons: ..., reasonStructure: ..., createdAt: ..., updatedAt: ..., userId: ...}
+                                                             ^^^^^^^
+Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., tradeNumber: 1, date: Date, direction: ..., pnl: ..., setupCategory: ..., bias: ..., rr: Decimal, notes: ..., phase: ..., summarizedReasons: ..., reasonStructure: ..., createdAt: ..., updatedAt: ..., userId: ...}
+                                                                                                     ^^^^^^^
+Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., tradeNumber: 2, date: Date, direction: ..., pnl: Decimal, setupCategory: ..., bias: ..., rr: ..., notes: ..., phase: ..., summarizedReasons: ..., reasonStructure: ..., createdAt: ..., updatedAt: ..., userId: ...}
+                                                             ^^^^^^^
+Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., tradeNumber: 2, date: Date, direction: ..., pnl: ..., setupCategory: ..., bias: ..., rr: Decimal, notes: ..., phase: ..., summarizedReasons: ..., reasonStructure: ..., createdAt: ..., updatedAt: ..., userId: ...}
+                                                                                                     ^^^^^^^
+Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., tradeNumber: 1, date: Date, direction: ..., pnl: Decimal, setupCategory: ..., bias: ..., rr: ..., notes: ..., phase: ..., summarizedReasons: ..., reasonStructure: ..., createdAt: ..., updatedAt: ..., userId: ...}
+                                                             ^^^^^^^
+Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., tradeNumber: 1, date: Date, direction: ..., pnl: ..., setupCategory: ..., bias: ..., rr: Decimal, notes: ..., phase: ..., summarizedReasons: ..., reasonStructure: ..., createdAt: ..., updatedAt: ..., userId: ...}
+                                                                                                     ^^^^^^^
+Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., tradeNumber: 2, date: Date, direction: ..., pnl: Decimal, setupCategory: ..., bias: ..., rr: ..., notes: ..., phase: ..., summarizedReasons: ..., reasonStructure: ..., createdAt: ..., updatedAt: ..., userId: ...}
+                                                             ^^^^^^^
+Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., tradeNumber: 2, date: Date, direction: ..., pnl: ..., setupCategory: ..., bias: ..., rr: Decimal, notes: ..., phase: ..., summarizedReasons: ..., reasonStructure: ..., createdAt: ..., updatedAt: ..., userId: ...}
+                                                                                                     ^^^^^^^
+Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., tradeNumber: 1, date: Date, direction: ..., pnl: Decimal, setupCategory: ..., bias: ..., rr: ..., notes: ..., phase: ..., summarizedReasons: ..., reasonStructure: ..., createdAt: ..., updatedAt: ..., userId: ...}
+                                                             ^^^^^^^
+Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., tradeNumber: 1, date: Date, direction: ..., pnl: ..., setupCategory: ..., bias: ..., rr: Decimal, notes: ..., phase: ..., summarizedReasons: ..., reasonStructure: ..., createdAt: ..., updatedAt: ..., userId: ...}
+                                                                                                     ^^^^^^^
+Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., tradeNumber: 2, date: Date, direction: ..., pnl: Decimal, setupCategory: ..., bias: ..., rr: ..., notes: ..., phase: ..., summarizedReasons: ..., reasonStructure: ..., createdAt: ..., updatedAt: ..., userId: ...}
+                                                             ^^^^^^^
+Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., tradeNumber: 2, date: Date, direction: ..., pnl: ..., setupCategory: ..., bias: ..., rr: Decimal, notes: ..., phase: ..., summarizedReasons: ..., reasonStructure: ..., createdAt: ..., updatedAt: ..., userId: ...}
+                                                                                                     ^^^^^^^
+Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., tradeNumber: 1, date: Date, direction: ..., pnl: Decimal, setupCategory: ..., bias: ..., rr: ..., notes: ..., phase: ..., summarizedReasons: ..., reasonStructure: ..., createdAt: ..., updatedAt: ..., userId: ...}
+                                                             ^^^^^^^
+Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., tradeNumber: 1, date: Date, direction: ..., pnl: ..., setupCategory: ..., bias: ..., rr: Decimal, notes: ..., phase: ..., summarizedReasons: ..., reasonStructure: ..., createdAt: ..., updatedAt: ..., userId: ...}
+                                                                                                     ^^^^^^^
+Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., tradeNumber: 2, date: Date, direction: ..., pnl: Decimal, setupCategory: ..., bias: ..., rr: ..., notes: ..., phase: ..., summarizedReasons: ..., reasonStructure: ..., createdAt: ..., updatedAt: ..., userId: ...}
+                                                             ^^^^^^^
+Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., tradeNumber: 2, date: Date, direction: ..., pnl: ..., setupCategory: ..., bias: ..., rr: Decimal, notes: ..., phase: ..., summarizedReasons: ..., reasonStructure: ..., createdAt: ..., updatedAt: ..., userId: ...}
+                                                                                                     ^^^^^^^
+Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., tradeNumber: 1, date: Date, direction: ..., pnl: Decimal, setupCategory: ..., bias: ..., rr: ..., notes: ..., phase: ..., summarizedReasons: ..., reasonStructure: ..., createdAt: ..., updatedAt: ..., userId: ...}
+                                                             ^^^^^^^
+Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., tradeNumber: 1, date: Date, direction: ..., pnl: ..., setupCategory: ..., bias: ..., rr: Decimal, notes: ..., phase: ..., summarizedReasons: ..., reasonStructure: ..., createdAt: ..., updatedAt: ..., userId: ...}
+                                                                                                     ^^^^^^^
+Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., tradeNumber: 2, date: Date, direction: ..., pnl: Decimal, setupCategory: ..., bias: ..., rr: ..., notes: ..., phase: ..., summarizedReasons: ..., reasonStructure: ..., createdAt: ..., updatedAt: ..., userId: ...}
+                                                             ^^^^^^^
+Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., tradeNumber: 2, date: Date, direction: ..., pnl: ..., setupCategory: ..., bias: ..., rr: Decimal, notes: ..., phase: ..., summarizedReasons: ..., reasonStructure: ..., createdAt: ..., updatedAt: ..., userId: ...}
+                                                                                                     ^^^^^^^
+Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., tradeNumber: 1, date: Date, direction: ..., pnl: Decimal, setupCategory: ..., bias: ..., rr: ..., notes: ..., phase: ..., summarizedReasons: ..., reasonStructure: ..., createdAt: ..., updatedAt: ..., userId: ...}
+                                                             ^^^^^^^
+Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., tradeNumber: 1, date: Date, direction: ..., pnl: ..., setupCategory: ..., bias: ..., rr: Decimal, notes: ..., phase: ..., summarizedReasons: ..., reasonStructure: ..., createdAt: ..., updatedAt: ..., userId: ...}
+                                                                                                     ^^^^^^^
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.

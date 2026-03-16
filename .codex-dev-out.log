@@ -1,0 +1,333 @@
+
+> trade-journal@0.1.0 dev
+> next dev
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.111:3000
+- Environments: .env
+
+✓ Starting...
+Creating turbopack project { dir: 'C:\\Users\\user\\Desktop\\Journal', testMode: true }
+✓ Ready in 897ms
+ GET /login 200 in 2.4s (compile: 1946ms, render: 409ms)
+ GET /login 200 in 104ms (compile: 5ms, render: 99ms)
+ GET /login 200 in 45ms (compile: 4ms, render: 41ms)
+ POST /api/auth/login 200 in 1915ms (compile: 623ms, render: 1291ms)
+ GET /dashboard 200 in 742ms (compile: 445ms, render: 296ms)
+ POST /login 303 in 1341ms (compile: 5ms, render: 1336ms)
+ GET /login 200 in 1340ms (compile: 5ms, render: 1335ms)
+ GET /dashboard 200 in 1753ms (compile: 155ms, render: 1597ms)
+ GET /dashboard 200 in 485ms (compile: 5ms, render: 481ms)
+ GET /dashboard 200 in 1255ms (compile: 4ms, render: 1251ms)
+ GET /dashboard 307 in 163ms (compile: 4ms, render: 159ms)
+✓ Compiled in 38ms
+ POST /dashboard 200 in 1276ms (compile: 86ms, render: 1190ms)
+ POST /dashboard 200 in 863ms (compile: 3ms, render: 860ms)
+ POST /dashboard 200 in 532ms (compile: 4ms, render: 528ms)
+ GET /dashboard 200 in 1648ms (compile: 250ms, render: 1398ms)
+ GET /dashboard 200 in 1290ms (compile: 5ms, render: 1285ms)
+ GET /dashboard 307 in 133ms (compile: 3ms, render: 130ms)
+ GET /login 200 in 57ms (compile: 11ms, render: 46ms)
+ GET /dashboard 200 in 2.2s (compile: 185ms, render: 2.0s)
+ GET /dashboard 200 in 1894ms (compile: 4ms, render: 1890ms)
+✓ Compiled in 304ms
+ GET /dashboard 200 in 2.5s (compile: 5ms, render: 2.5s)
+ GET /dashboard 200 in 2.8s (compile: 200ms, render: 2.6s)
+ GET /dashboard?month=2026-03 307 in 119ms (compile: 7ms, render: 111ms)
+ GET /login 200 in 52ms (compile: 4ms, render: 48ms)
+ GET /dashboard 200 in 1161ms (compile: 161ms, render: 1000ms)
+ GET /dashboard 200 in 821ms (compile: 5ms, render: 816ms)
+ GET /dashboard?month=2026-04 200 in 653ms (compile: 4ms, render: 650ms)
+ GET /dashboard?month=2026-03 200 in 887ms (compile: 5ms, render: 882ms)
+ GET /dashboard?month=2026-03 200 in 1041ms (compile: 166ms, render: 875ms)
+ GET /dashboard 200 in 1181ms (compile: 368ms, render: 813ms)
+ GET /dashboard 307 in 83ms (compile: 3ms, render: 80ms)
+ GET /login 200 in 51ms (compile: 3ms, render: 48ms)
+ GET /dashboard 200 in 2.8s (compile: 159ms, render: 2.6s)
+ GET /dashboard?month=2026-03 200 in 3.1s (compile: 300ms, render: 2.8s)
+ GET /dashboard?month=2026-03 200 in 1097ms (compile: 169ms, render: 928ms)
+ GET /dashboard 200 in 1748ms (compile: 299ms, render: 1450ms)
+ GET /dashboard 307 in 93ms (compile: 5ms, render: 88ms)
+ GET /login 200 in 54ms (compile: 3ms, render: 51ms)
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+ GET /dashboard?month=2026-03 200 in 3.8s (compile: 4ms, render: 3.7s)
+ GET /dashboard?month=2026-04 200 in 667ms (compile: 8ms, render: 659ms)
+ GET /dashboard 200 in 1834ms (compile: 213ms, render: 1622ms)
+ GET /dashboard?month=2026-04 200 in 1847ms (compile: 374ms, render: 1473ms)
+ GET /dashboard 307 in 86ms (compile: 4ms, render: 82ms)
+ GET /login 200 in 45ms (compile: 3ms, render: 42ms)
+✓ Compiled in 104ms
+ GET /dashboard 200 in 2.1s (compile: 193ms, render: 1942ms)
+ GET /dashboard?month=2026-04 200 in 2.1s (compile: 323ms, render: 1812ms)
+ GET /dashboard 307 in 79ms (compile: 3ms, render: 76ms)
+ GET /login 200 in 38ms (compile: 3ms, render: 36ms)
+ GET /dashboard 200 in 1083ms (compile: 189ms, render: 895ms)
+ GET /dashboard?month=2026-04 200 in 1424ms (compile: 3ms, render: 1421ms)
+ GET /dashboard 307 in 74ms (compile: 4ms, render: 71ms)
+ GET /login 200 in 42ms (compile: 2ms, render: 40ms)
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+ GET /dashboard?month=2026-04 200 in 3.1s (compile: 8ms, render: 3.1s)
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+ GET /dashboard?month=2026-04 200 in 3.4s (compile: 4ms, render: 3.4s)
+ GET /dashboard?month=2026-04 200 in 4.0s (compile: 394ms, render: 3.6s)
+ GET /dashboard?month=2026-04 200 in 4.0s (compile: 416ms, render: 3.6s)
+ GET /dashboard 200 in 4.6s (compile: 230ms, render: 4.3s)
+✓ Compiled in 112ms
+ GET /dashboard?month=2026-04 200 in 1154ms (compile: 334ms, render: 820ms)
+ GET /dashboard 200 in 1160ms (compile: 190ms, render: 970ms)
+ GET /dashboard?month=2026-04 200 in 2.8s (compile: 214ms, render: 2.6s)
+ GET /dashboard 200 in 2.8s (compile: 342ms, render: 2.5s)
+✓ Compiled in 118ms
+ GET /dashboard 200 in 1215ms (compile: 208ms, render: 1007ms)
+ GET /dashboard?month=2026-04 200 in 1215ms (compile: 388ms, render: 828ms)
+ GET /dashboard?month=2026-04 200 in 1020ms (compile: 344ms, render: 676ms)
+ GET /dashboard 200 in 1113ms (compile: 212ms, render: 902ms)
+✓ Compiled in 111ms
+ GET /dashboard?month=2026-04 200 in 1002ms (compile: 347ms, render: 656ms)
+ GET /dashboard 200 in 1111ms (compile: 195ms, render: 915ms)
+✓ Compiled in 136ms
+ GET /dashboard 200 in 2.8s (compile: 300ms, render: 2.5s)
+ GET /dashboard?month=2026-04 200 in 2.9s (compile: 213ms, render: 2.6s)
+ GET /dashboard 200 in 1172ms (compile: 348ms, render: 823ms)
+ GET /dashboard?month=2026-04 200 in 1180ms (compile: 210ms, render: 970ms)
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+✓ Compiled in 114ms
+ GET /dashboard?month=2026-04 200 in 3.2s (compile: 292ms, render: 2.9s)
+ GET /dashboard 200 in 3.8s (compile: 173ms, render: 3.6s)
+ GET /dashboard 200 in 1124ms (compile: 199ms, render: 925ms)
+ GET /dashboard?month=2026-04 200 in 1903ms (compile: 346ms, render: 1557ms)
+ GET /dashboard?month=2026-04 200 in 1086ms (compile: 268ms, render: 818ms)
+ GET /dashboard 200 in 1089ms (compile: 140ms, render: 949ms)
+ GET /dashboard?month=2026-04 200 in 1074ms (compile: 5ms, render: 1070ms)
+✓ Compiled in 120ms
+ GET /dashboard?month=2026-04 200 in 940ms (compile: 157ms, render: 783ms)
+ GET /dashboard 200 in 763ms (compile: 4ms, render: 759ms)
+✓ Compiled in 33ms
+✓ Compiled in 168ms
+ GET /dashboard?month=2026-04 200 in 2.8s (compile: 164ms, render: 2.6s)
+ GET /dashboard 200 in 1112ms (compile: 184ms, render: 929ms)
+ GET /dashboard?month=2026-04 200 in 1787ms (compile: 328ms, render: 1459ms)
+✓ Compiled in 122ms
+ GET /dashboard?month=2026-04 200 in 2.2s (compile: 191ms, render: 1964ms)
+ GET /dashboard 200 in 1785ms (compile: 6ms, render: 1780ms)
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+ GET /dashboard?month=2026-04 200 in 3.1s (compile: 258ms, render: 2.9s)
+ GET /dashboard 200 in 3.1s (compile: 424ms, render: 2.7s)
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+ GET /dashboard?month=2026-04 200 in 3.2s (compile: 215ms, render: 3.0s)
+ GET /dashboard 200 in 3.9s (compile: 370ms, render: 3.5s)
+ GET /dashboard 200 in 925ms (compile: 176ms, render: 749ms)
+ GET /dashboard?month=2026-04 200 in 1222ms (compile: 5ms, render: 1217ms)
+ GET /dashboard?month=2026-05 200 in 799ms (compile: 11ms, render: 787ms)
+ GET /dashboard?month=2026-04 200 in 544ms (compile: 4ms, render: 539ms)
+ GET /dashboard?month=2026-04 200 in 1012ms (compile: 206ms, render: 806ms)
+ GET /dashboard 200 in 1130ms (compile: 364ms, render: 766ms)
+ GET /dashboard 200 in 2.9s (compile: 200ms, render: 2.7s)
+ GET /dashboard?month=2026-04 200 in 2.9s (compile: 379ms, render: 2.5s)
+✓ Compiled in 41ms
+ POST /dashboard?month=2026-04 200 in 1578ms (compile: 132ms, render: 1446ms)
+ POST /dashboard?month=2026-04 200 in 903ms (compile: 7ms, render: 896ms)
+ GET /dashboard?month=2026-04 200 in 2.5s (compile: 309ms, render: 2.2s)
+ GET /dashboard 200 in 2.5s (compile: 173ms, render: 2.3s)
+ POST /dashboard?month=2026-04 200 in 3.1s (compile: 5ms, render: 3.1s)
+ POST /dashboard?month=2026-04 200 in 1109ms (compile: 3ms, render: 1105ms)
+ GET /dashboard?month=2026-03 200 in 646ms (compile: 5ms, render: 641ms)
+ POST /dashboard?month=2026-03 200 in 914ms (compile: 5ms, render: 909ms)
+ POST /dashboard?month=2026-03 200 in 774ms (compile: 5ms, render: 769ms)
+ POST /dashboard?month=2026-03 200 in 2.8s (compile: 4ms, render: 2.8s)
+ GET /dashboard 200 in 1166ms (compile: 205ms, render: 961ms)
+ GET /dashboard?month=2026-03 200 in 1805ms (compile: 360ms, render: 1444ms)
+ POST /dashboard?month=2026-03 200 in 2.2s (compile: 5ms, render: 2.2s)
+ GET /dashboard?month=2026-03 200 in 1566ms (compile: 5ms, render: 1561ms)
+ POST /dashboard?month=2026-03 200 in 1130ms (compile: 4ms, render: 1127ms)
+ GET /dashboard?month=2026-03 200 in 761ms (compile: 3ms, render: 757ms)
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+ POST /dashboard?month=2026-03 200 in 3.4s (compile: 9ms, render: 3.4s)
+ GET /dashboard?month=2026-03 200 in 2.2s (compile: 3ms, render: 2.2s)
+ POST /dashboard?month=2026-03 200 in 1124ms (compile: 4ms, render: 1120ms)
+ GET /dashboard?month=2026-03 200 in 1289ms (compile: 3ms, render: 1286ms)
+ GET / 200 in 574ms (compile: 471ms, render: 103ms)
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+ POST /dashboard?month=2026-03 200 in 3.4s (compile: 6ms, render: 3.3s)
+ GET /dashboard?month=2026-03 200 in 2.1s (compile: 3ms, render: 2.1s)
+✓ Compiled in 128ms
+ GET /dashboard?month=2026-03 200 in 1150ms (compile: 215ms, render: 935ms)
+ GET /dashboard 200 in 1477ms (compile: 4ms, render: 1473ms)
+ POST /dashboard?month=2026-03 200 in 1134ms (compile: 3ms, render: 1131ms)
+ GET /dashboard?month=2026-03 200 in 779ms (compile: 3ms, render: 776ms)
+ GET /dashboard?month=2026-03 200 in 521ms (compile: 3ms, render: 518ms)
+ POST /dashboard?month=2026-03 200 in 1035ms (compile: 3ms, render: 1032ms)
+ GET /dashboard?month=2026-03 200 in 435ms (compile: 6ms, render: 429ms)
+ POST /dashboard?month=2026-03 200 in 911ms (compile: 3ms, render: 908ms)
+ POST /dashboard?month=2026-03 200 in 1117ms (compile: 4ms, render: 1113ms)
+ GET /dashboard?month=2026-03 200 in 662ms (compile: 3ms, render: 658ms)
+ POST /api/auth/logout 200 in 227ms (compile: 211ms, render: 16ms)
+ GET /login 200 in 273ms (compile: 127ms, render: 146ms)
+ GET /login 200 in 41ms (compile: 5ms, render: 37ms)
+ GET /dashboard 200 in 361ms (compile: 4ms, render: 358ms)
+ GET /login 200 in 369ms (compile: 193ms, render: 176ms)
+ GET /login 200 in 55ms (compile: 4ms, render: 51ms)
+ GET /login 200 in 34ms (compile: 3ms, render: 31ms)
+ GET /login 200 in 105ms (compile: 3ms, render: 102ms)
+ GET /dashboard 200 in 2.3s (compile: 3ms, render: 2.3s)
+ POST /login 303 in 4.6s (compile: 3ms, render: 4.6s)
+✓ Compiled in 116ms
+ GET /login 200 in 752ms (compile: 382ms, render: 370ms)
+ GET /dashboard 200 in 1833ms (compile: 221ms, render: 1611ms)
+ GET /dashboard 200 in 1367ms (compile: 3ms, render: 1364ms)
+ GET /dashboard 200 in 1370ms (compile: 2ms, render: 1368ms)
+ POST /api/auth/logout 200 in 27ms (compile: 5ms, render: 23ms)
+ GET /login 200 in 29ms (compile: 4ms, render: 26ms)
+ GET /login 200 in 23ms (compile: 4ms, render: 20ms)
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+✓ Compiled in 329ms
+ GET /dashboard 200 in 382ms (compile: 5ms, render: 377ms)
+ GET /login 200 in 383ms (compile: 224ms, render: 159ms)
+ GET /login 200 in 1568ms (compile: 3ms, render: 1565ms)
+ GET /login 200 in 1230ms (compile: 4ms, render: 1227ms)
+ GET /login 200 in 399ms (compile: 190ms, render: 209ms)
+ GET /login 200 in 39ms (compile: 4ms, render: 35ms)
+ GET /login 200 in 108ms (compile: 5ms, render: 103ms)
+ GET /login 200 in 66ms (compile: 4ms, render: 62ms)
+ GET /login 200 in 67ms (compile: 5ms, render: 63ms)
+ GET /login 200 in 450ms (compile: 234ms, render: 216ms)
+ GET /login 200 in 44ms (compile: 4ms, render: 40ms)
+ GET /login 200 in 146ms (compile: 5ms, render: 141ms)
+ GET /dashboard 200 in 1491ms (compile: 4ms, render: 1487ms)
+ POST /login 303 in 3.9s (compile: 3ms, render: 3.9s)
+ POST /dashboard 200 in 1875ms (compile: 3ms, render: 1872ms)
+ GET /dashboard 200 in 1484ms (compile: 6ms, render: 1479ms)
+ POST /api/auth/logout 200 in 26ms (compile: 3ms, render: 23ms)
+ GET /login 200 in 32ms (compile: 5ms, render: 27ms)
+ GET /login 200 in 35ms (compile: 7ms, render: 28ms)
+prisma:error Error in PostgreSQL connection: Error { kind: Io, cause: Some(Os { code: 10054, kind: ConnectionReset, message: "An existing connection was forcibly closed by the remote host." }) }
+prisma:error Error in PostgreSQL connection: Error { kind: Io, cause: Some(Os { code: 10054, kind: ConnectionReset, message: "An existing connection was forcibly closed by the remote host." }) }
+prisma:error Error in PostgreSQL connection: Error { kind: Io, cause: Some(Os { code: 10054, kind: ConnectionReset, message: "An existing connection was forcibly closed by the remote host." }) }
+prisma:error Error in PostgreSQL connection: Error { kind: Io, cause: Some(Os { code: 10054, kind: ConnectionReset, message: "An existing connection was forcibly closed by the remote host." }) }
+prisma:error Error in PostgreSQL connection: Error { kind: Io, cause: Some(Os { code: 10054, kind: ConnectionReset, message: "An existing connection was forcibly closed by the remote host." }) }
+prisma:error Error in PostgreSQL connection: Error { kind: Io, cause: Some(Os { code: 10054, kind: ConnectionReset, message: "An existing connection was forcibly closed by the remote host." }) }
+prisma:error Error in PostgreSQL connection: Error { kind: Io, cause: Some(Os { code: 10054, kind: ConnectionReset, message: "An existing connection was forcibly closed by the remote host." }) }
+prisma:error Error in PostgreSQL connection: Error { kind: Io, cause: Some(Os { code: 10054, kind: ConnectionReset, message: "An existing connection was forcibly closed by the remote host." }) }
+prisma:error Error in PostgreSQL connection: Error { kind: Io, cause: Some(Os { code: 10054, kind: ConnectionReset, message: "An existing connection was forcibly closed by the remote host." }) }
+prisma:error Error in PostgreSQL connection: Error { kind: Io, cause: Some(Os { code: 10054, kind: ConnectionReset, message: "An existing connection was forcibly closed by the remote host." }) }
+ GET /dashboard 200 in 1879ms (compile: 3ms, render: 1875ms)
+ POST /login 303 in 4.2s (compile: 6ms, render: 4.2s)
+ POST /api/auth/logout 200 in 22ms (compile: 5ms, render: 17ms)
+ GET /login 200 in 28ms (compile: 4ms, render: 23ms)
+ GET /login 200 in 34ms (compile: 4ms, render: 30ms)
+ GET /dashboard 200 in 925ms (compile: 3ms, render: 922ms)
+ POST /login 303 in 1688ms (compile: 4ms, render: 1684ms)
+ POST /dashboard 200 in 2.2s (compile: 3ms, render: 2.2s)
+ GET /dashboard 200 in 1821ms (compile: 5ms, render: 1816ms)
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }
+prisma:error Error in PostgreSQL connection: Error { kind: Closed, cause: None }

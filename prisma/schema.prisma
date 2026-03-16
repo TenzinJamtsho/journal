@@ -1,0 +1,101 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+enum Phase {
+  PHASE_1
+  PHASE_2
+  LIVE
+}
+
+enum Direction {
+  LONG
+  SHORT
+}
+
+enum SetupCategory {
+  CONT
+  REVERSAL
+}
+
+enum Bias {
+  BULLISH
+  BEARISH
+  RANGE
+}
+
+model User {
+  id            String          @id @default(cuid())
+  email         String          @unique
+  passwordHash  String
+  name          String?
+  selectedPhase Phase          @default(PHASE_1)
+  createdAt     DateTime        @default(now())
+  updatedAt     DateTime        @updatedAt
+  trades        Trade[]
+  phaseSettings PhaseSettings[]
+  passwordResetTokens PasswordResetToken[]
+}
+
+model PasswordResetToken {
+  id         String   @id @default(cuid())
+  tokenHash  String   @unique
+  expiresAt  DateTime
+  createdAt  DateTime @default(now())
+  usedAt     DateTime?
+  userId     String
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([expiresAt])
+}
+
+model Trade {
+  id                String        @id @default(cuid())
+  tradeNumber       Int
+  date              DateTime
+  pair              String
+  direction         Direction
+  pnl               Decimal       @db.Decimal(12, 2)
+  setupCategory     SetupCategory
+  bias              Bias
+  rr                Decimal?      @db.Decimal(6, 2)
+  notes             String?       @db.Text
+  phase             Phase
+  summarizedReasons String        @db.Text
+  reasonStructure   Json
+  createdAt         DateTime      @default(now())
+  updatedAt         DateTime      @updatedAt
+  userId            String
+  user              User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, phase, date])
+  @@unique([userId, phase, tradeNumber])
+}
+
+model PhaseSettings {
+  id                 String    @id @default(cuid())
+  phase              Phase
+  startingBalance    Decimal   @db.Decimal(12, 2)
+  goal               Decimal   @db.Decimal(12, 2)
+  phaseTargetPercent Decimal   @db.Decimal(5, 2)
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
+  userId             String
+  user               User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, phase])
+}
